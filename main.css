@@ -1,0 +1,140 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%; 
+    height: 100vh; 
+}
+
+body {
+    background-image: url(assets/lens-g0ba8777ad_1920.jpg);
+    display: flex;
+}
+
+.main-header {
+    width: 15%;
+}
+
+.header-title {
+    margin-top: 10px;
+    margin-right: 2em;
+    font-size: 8.5em;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.main-container {
+    width: 80%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-field {
+    background-color: rgb(179, 231, 100, 0.4);
+    /* border: 3px solid greenyellow; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 5px;
+    width: 600px;
+    height: 78em;
+    display: flex; 
+    flex-direction: column;
+    margin: 6em auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.player-name-lbl {
+    margin-top: 1em;
+    margin-bottom: 0.3em; 
+    color: white; 
+    font-size: 2em;
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.input-field input {
+    width: 400px;
+    height: 3em; 
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-family: 'Unbounded', cursive;
+    padding: 0em 0.4em; 
+    font-size: 1.3em;
+}
+
+.input-field button {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 2em;
+    width: 300px; 
+    height: 2em; 
+    background-color: rgb(40, 229, 221);
+    font-size: 1.8em;
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    color: rgb(46, 46, 46);
+    margin-bottom: 1.5em;
+}
+
+.gameturn {
+    margin: 0 auto; 
+    height: 100px; 
+    width: 400px; 
+    background-color: rgb(179, 231, 100, 0.4);
+    /* border: 3px solid greenyellow; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    visibility: hidden; 
+}
+
+.gameturn,
+.gameturn-lbl {
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.game-container {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 1em auto; 
+    padding: 1em; 
+    width: 800px; 
+    height: 800px; 
+    background-color: rgb(179, 231, 100, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    gap: 1em; 
+    bottom: 2%; 
+    right: 10.5%;
+    visibility: hidden;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    font-size: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

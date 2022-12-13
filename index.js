@@ -10,8 +10,6 @@ const cards = document.querySelectorAll(".card");
 const gameturnWindow = document.querySelector(".gameturn");
 const gameboard = document.querySelector(".game-container");
 const inputField = document.querySelector(".input-field");
-let symbolO = 'O';
-let symbolX = 'X';
 
 function startGame() {
     playerOneName = playerOneInput.value;
@@ -20,11 +18,11 @@ function startGame() {
     
     let playerOne = {
         name: playerOneName,
-        symbol: symbolO,
+        symbol: 'O',
     }
     let playerTwo = {
         name: playerTwoName,
-        symbol: symbolX,
+        symbol: 'X',
     }
 
     players = [playerOne, playerTwo];
